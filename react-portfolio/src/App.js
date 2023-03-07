@@ -1,11 +1,14 @@
 import React from "react";
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Home from "./components/Home";
+import ProjectGallery from "./components/projectGallery";
+import Project from "./components/Project";
+// import logo from './logo.svg';
+// import './App.css';
 
 function App() {
   return (
     <div>
-      <App />
       <Header />
       <Home />
       <ProjectGallery />
